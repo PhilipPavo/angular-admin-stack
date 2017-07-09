@@ -1,0 +1,17 @@
+<form class="ui form" (ngSubmit)="onSubmit(form)" #form="ngForm">
+  <div class="field">
+    <label>Логин</label>
+    <div class="ui left icon input">
+      <input type="text" [(ngModel)]="login" name="login" placeholder="Логин" required >
+      <i class="icon user"></i>
+    </div>
+  </div>
+  <div class="field">
+    <label>Пароль</label>
+    <div class="ui left icon input">
+      <input type="password" [(ngModel)]="password" name="password" placeholder="Пароль" required>
+      <i class="icon key"></i>
+    </div>
+  </div>
+  <button class="ui button right floated" type="submit">Войти</button>
+</form>
