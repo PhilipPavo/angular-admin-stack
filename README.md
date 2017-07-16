@@ -1,4 +1,14 @@
-# admin-panel-stack Frontend (Angular 2 + Semantic UI)
+# admin-panel-stack Frontend
+
+- Angular
+- Semantic UI
+- InMemoryWebApi
+
+## Demo
+https://philippavo.github.io/angular2-admin-stack/
+### Users:
+- test:test
+- admin:admin
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.0.
 
@@ -30,8 +40,6 @@ Before running the tests make sure you are serving the app via `ng serve`.
 
 `ngh --no-silent`
 
-## Demo
-https://philippavo.github.io/angular2-admin-stack/
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
